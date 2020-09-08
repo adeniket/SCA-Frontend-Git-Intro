@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #dfe3df;
+    background: url(https://ak8.picdn.net/shutterstock/videos/31218658/thumb/1.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    /* overflow: hidden; */
+
+
+}
+.container{
+   width: 80%; 
+   margin: auto;
+   overflow: hidden;
+
+}
+header{
+    background-color: #fff;
+    padding: 18px;
+}
+nav ul{
+    margin:0;
+    padding: 0;
+}
+  nav li{
+    display: inline;
+    padding: 12px;
+    list-style-type: none;
+}
+nav li a{
+    text-decoration: none;
+    color: #000;
+    font-family: fantasy;
+    font-size: 1.3rem; 
+} 
+header h1{
+    margin: 0;
+
+}
+.head{
+    float: left;
+}
+nav{
+    float: right;
+    margin-top: -25px;
+}
+.showcase h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 5rem;
+    font-size:2.7rem;
+
+}
+/* 1rem equal 16px */
+.showcase p{
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+    font-size: 2rem;
+
+}
+.btn1{
+    margin-left: 30%;
+    padding: 0.7rem;
+    background-color:#002eff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    border-radius:0.5rem;
+    margin-top: 8%;
+
+}
+.btn2{
+    padding: 0.8rem;
+    background-color:#002eff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 5%;
+    border: none;
+    border-radius:0.5rem;
+    margin-top: 8%;
+
+ 
+}
+footer{
+    background-color: #fff;
+    margin: 0;
+    margin-top: 8%;
+    padding:10px ;
+}
+.lefty{
+    float: left;
+    width: 10%;
+    font-family: cursive;
+    font-size: 1rem;
+
+}
+.righty{
+    float: right;
+    margin-top: 3.0%;
+}
+.righty input{
+    padding: 0.8rem;
+    width: 150px;
+    font-size: 1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn3{
+    padding: 7px 12px;
+    color: #fff; 
+    text-decoration: none;
+    border: none;
+    border-radius:0.5rem;
+    background-color:#002eff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
